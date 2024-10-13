@@ -460,7 +460,7 @@ aws cloudformation delete-stack --stack-name MyResourceStack
 ```
 This will terminate the EC2 instance and delete the resources created by the stack.
 
-![CF_Stack_Delete](Images\cf-stack-delete.png)
+![CF_Stack_Delete](./Images/cf-stack-delete.png)
 
 You have successfully created a simple CloudFormation template to launch an EC2 instance, customized the instance type, and retrieved outputs. You can expand this template by adding more resources and configurations as per your requirements.
 ## Conclusion
