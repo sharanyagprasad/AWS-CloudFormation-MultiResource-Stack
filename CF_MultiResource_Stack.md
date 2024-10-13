@@ -422,7 +422,7 @@ aws cloudformation validate-template --template-body file://cf-multiresource-tem
 
 If successful, the output shows the details of the parameters and description from your CloudFormation template.
 
-![CF_Stack_Validation](Images\cf-stack-validation.png)
+![CF_Stack_Validation](./Images/cf-stack-validation.png)
 
 ### Step 5: Deploy the CloudFormation Stack
 Deploy the CloudFormation stack using the AWS CLI:
@@ -434,14 +434,14 @@ Deploy the CloudFormation stack using the AWS CLI:
 Replace MyEC2InstanceStack with the name of your stack.
 This command will create an EC2 instance with the instance type t2.micro.
 
-![CF_Stack_Creation](Images\cf-stack-create.png)
+![CF_Stack_Creation](./Images/cf-stack-create.png)
 
 ### Step 3: Monitor the Stack Creation
 Open the AWS Management Console.
 Navigate to CloudFormation.
 Find the stack MyEC2InstanceStack and monitor the status. It should move from CREATE_IN_PROGRESS to CREATE_COMPLETE.
 
-![CF_Stack_Monitor](Images\cf-stack-monitoring.png)
+![CF_Stack_Monitor](./Images/cf-stack-monitoring.png)
 
 ### Step 4: Retrieve Outputs
 Once the stack creation is complete, you can view the outputs (like the EC2 instance ID):
@@ -450,7 +450,7 @@ Click on your stack in the CloudFormation dashboard.
 Go to the Resources tab, you can click the Instance id which takes you to AWS EC2 Instance page.
 Go to the Outputs tab to retrieve useful information like the instance ID.
 
-![CF_Stack_Resources](Images\cf-stack-resources.png)
+![CF_Stack_Resources](./Images/cf-stack-resources.png)
 
 ### Step 9: Clean Up
 To avoid ongoing costs, you can delete the stack after you're done testing:
