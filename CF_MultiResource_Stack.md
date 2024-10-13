@@ -4,6 +4,7 @@ In the rapidly evolving world of cloud computing, automating infrastructure prov
 
 ## Prerequisites:
 Before diving into the CloudFormation template, ensure you have:
+- [An Introduction to AWS CloudFormation: Laying the Foundation for Cloud Infrastructure](https://aws-iac-cloudformation-introduction.hashnode.dev/an-introduction-to-aws-cloudformation-laying-the-foundation-for-cloud-infrastructure)
 - Basic understanding of AWS services such as EC2, S3, IAM, and VPC.
 - AWS CLI installed and configured.
 - AWS Management Console access.
@@ -14,7 +15,7 @@ Before diving into the CloudFormation template, ensure you have:
 
 ## What Are CloudFormation Resources?
 
-AWS CloudFormation uses a declarative approach to define and manage resources. A **resource** is any component that AWS offers (EC2 instances, S3 buckets, IAM roles, etc.). By defining these resources in YAML or JSON templates, you can automate their creation, modification, and deletion.
+AWS CloudFormation uses a declarative approach to define and manage resources. A **resource** is any component that AWS offers (EC2 instances, S3 buckets, IAM roles, etc.). By defining these resources in YAML or JSON templates, you can automate their creation, modification, and deletion. Refer my previous article on [An Introduction to AWS CloudFormation: Laying the Foundation for Cloud Infrastructure](https://aws-iac-cloudformation-introduction.hashnode.dev/an-introduction-to-aws-cloudformation-laying-the-foundation-for-cloud-infrastructure).
 
 ---
 
